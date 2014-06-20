@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/service/security
+END
+UserDetailsServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/service/security/UserDetailsServiceImpl.java
+END
+AuthorityCrudService.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/service/security/AuthorityCrudService.java
+END
+ResourceCrudService.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/service/security/ResourceCrudService.java
+END
+UserCrudService.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/service/security/UserCrudService.java
+END
+MenuCrudService.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/service/security/MenuCrudService.java
+END
+RoleCrudService.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/service/security/RoleCrudService.java
+END
+ResourceDetailsServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/service/security/ResourceDetailsServiceImpl.java
+END

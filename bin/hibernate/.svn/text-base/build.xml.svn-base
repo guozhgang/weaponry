@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="hibernate tools" default="generate.code">
+
+	<property name="project.runtime.lib" value="../../webapp/WEB-INF/lib" />
+	<property name="project.lib" value="../../lib" />
+	<property name="hibernatetools-templates.path" value="hibernate-templates" />
+
+	<path id="toolslib">
+		<fileset dir="${project.lib}" includes="**/*.jar"/>
+		<fileset dir="${project.runtime.lib}" includes="**/*.jar"/>
+	</path>
+
+	<taskdef name="hibernatetool" classname="org.hibernate.tool.ant.HibernateToolTask" classpathref="toolslib" />
+
+	<target name="generate.pojo">
+		<hibernatetool destdir="generated">
+			<classpath>
+				<path location="../../webapp/WEB-INF/classes" />
+			</classpath>
+
+			<jdbcconfiguration configurationfile="hibernate.cfg.xml" namingstrategy="org.hibernate.cfg.ImprovedNamingStrategy" revengfile="hibernate.reveng.xml" detectmanytomany="true" />
+
+			<hbm2java jdk5="true" ejb3="true" />
+		</hibernatetool>
+	</target>
+
+	<target name="generate.code">
+		<hibernatetool destdir="generated" templatepath="${hibernatetools-templates.path}/">
+			<classpath>
+				<path location="../../webapp/WEB-INF/classes" />
+			</classpath>
+
+			<annotationconfiguration configurationfile="hibernate.cfg.xml" />
+
+			<hbmtemplate templateprefix="pojo/" template="dao.ftl" filepattern="{class-name}Dao.java" />
+			<hbmtemplate templateprefix="pojo/" template="manager.ftl" filepattern="{class-name}Manager.java" />
+			<hbmtemplate templateprefix="pojo/" template="daoTest.ftl" filepattern="{class-name}DaoTest.java" />
+
+		</hibernatetool>
+	</target>
+
+	<target name="generate.ddl">
+		<hibernatetool destdir="generated">
+			<classpath>
+				<path location="../../webapp/WEB-INF/classes" />
+			</classpath>
+
+			<annotationconfiguration configurationfile="hibernate.cfg.xml" namingstrategy="org.hibernate.cfg.ImprovedNamingStrategy" />
+
+			<hbm2ddl export="false" update="false" drop="false" create="false" outputfilename="schema.sql" delimiter=";" format="true" haltonerror="false" />
+		</hibernatetool>
+	</target>
+</project>

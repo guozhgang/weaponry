@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/test/java/com/cce/weaponry/unit/service/news
+END
+NewsCategoryServiceTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/test/java/com/cce/weaponry/unit/service/news/NewsCategoryServiceTest.java
+END
+NewsPageServiceTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/test/java/com/cce/weaponry/unit/service/news/NewsPageServiceTest.java
+END
+InnerMessageServiceTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/test/java/com/cce/weaponry/unit/service/news/InnerMessageServiceTest.java
+END
+AttachmentServiceTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/test/java/com/cce/weaponry/unit/service/news/AttachmentServiceTest.java
+END

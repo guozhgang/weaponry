@@ -1,0 +1,52 @@
+8
+
+dir
+21
+http://soft-server/svn/zbms/trunk/weaponry/cce-web/src/cluster/nodes
+http://soft-server/svn/zbms
+
+
+
+2014-06-11T03:40:44.672500Z
+13
+xinglifeng
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+c857d626-0701-4c40-b05f-29447147eddd
+
+node1.properties
+file
+
+
+
+
+2014-06-12T01:26:07.247000Z
+5f7f04f56004400a52ff5615231bc086
+2014-06-11T03:40:44.672500Z
+13
+xinglifeng
+
+node2.properties
+file
+
+
+
+
+2014-06-12T01:26:07.252000Z
+5f7f04f56004400a52ff5615231bc086
+2014-06-11T03:40:44.672500Z
+13
+xinglifeng
+

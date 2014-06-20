@@ -1,0 +1,247 @@
+<?xml version="1.0"?>
+<project name="weaponry" basedir="." default="war">
+	
+    <property name="project.name" value="weaponry"/>
+    <property name="project.author" value="cce"/>
+    <property name="project.version" value="1.0"/>
+    
+	<!-- 系统目录定义  -->
+	<property name="lib.dir" value="webapp/WEB-INF/lib"/>
+	
+    <property name="main.java.dir" value="src/main/java"/>
+	<property name="main.resource.dir" value="src/main/resources"/>
+	<property name="main.output.dir" value="webapp/WEB-INF/classes"/>
+	
+	<property name="test.java.dir" value="src/test/java"/>
+	<property name="test.resource.dir" value="src/test/resources"/>
+	<property name="test.output.dir" value="target/test-classes"/>
+	<property name="test.data.dir" value="target/test-data"/>
+	<property name="test.report.dir" value="target/test-report"/>
+	
+    <tstamp>
+        <format property="timestamp" pattern="yyyy-MM-dd"/>
+    </tstamp>
+	
+    <!-- 显示可选任务，并接受用户的选择 -->
+    <target name="usage">
+        <echo message="SpringSide Build 文件"/>
+        <echo message="------------------------------------------------------"/>
+        <echo message=""/>
+        <echo message="可选Target:"/>
+        <echo message=""/>
+        <echo message="compile     --&gt; 编译Java文件并复制资源文件"/>
+        <echo message="war         --&gt; 生成war文件"/>
+        <echo message="test        --&gt; 运行JUnit测试"/>
+        <echo message="test-report --&gt; 生成JUnit测试结果报表"/>
+        <echo message=""/>
+        <input message="请选择一个Target "
+               validargs="compile,war,test,test-report"
+               addproperty="ant.task"/>
+        <antcall target="${ant.task}"/>
+    </target>
+	
+    <!-- 初始化目录 -->
+    <target name="init">
+        <mkdir dir="${main.output.dir}"/>
+        <mkdir dir="${test.output.dir}"/>
+        <mkdir dir="${test.report.dir}"/>
+    </target>
+	
+    <!-- 定义Class Path -->
+    <path id="compile.classpath">
+        <fileset dir="webapp/WEB-INF/lib" includes="**/*.jar"/>
+    	<fileset dir="lib" includes="servlet-api*.jar"/>
+    </path>
+
+    <path id="test.classpath">
+    	<path refid="compile.classpath"/>
+    	<fileset dir="lib" includes="**/*.jar"/>
+        <path location="${main.output.dir}"/>
+        <path location="${test.output.dir}"/>
+    </path>
+	
+    <!-- 编译选项 -->
+    <property name="compiler.args" value="-encoding UTF-8 -source 1.5 -target 1.5"/>
+
+    <patternset id="compiler.resources">
+        <include name="**/?*.properties"/>
+        <include name="**/?*.script"/>
+        <include name="**/?*.xml"/>
+    	<include name="**/?*.htm"/>
+        <include name="**/?*.html"/>
+        <include name="**/?*.dtd"/>
+        <include name="**/?*.tld"/>
+        <include name="**/?*.gif"/>
+        <include name="**/?*.png"/>
+        <include name="**/?*.jpeg"/>
+        <include name="**/?*.jpg"/>
+    </patternset>
+
+	<!-- 编码转换 -->
+    <target name="i18n" description="Tranform the properties files to UTF-8">
+        <native2ascii src="${main.resource.dir}/messages" dest="${main.resource.dir}/conf/messages" encoding="UTF-8"/>
+    </target>
+	
+	<target name="copy cce-core.jar" description="复制cce-core.jar到lib目录">
+		<copy file="../cce-core/target/cce-core.jar" todir="webapp/WEB-INF/lib/" overwrite="yes"/>
+	</target>
+	
+    <!-- 编译Java文件并复制资源文件 -->
+    <target name="compile" depends="init" description="编译Java文件并复制资源文件">
+
+        <!--编译Main Java 文件-->
+        <javac destdir="${main.output.dir}" fork="true">
+            <compilerarg line="${compiler.args}"/>
+            <classpath refid="compile.classpath"/>
+            <src path="${main.java.dir}"/>
+        	<src path="${main.resource.dir}"/>
+        </javac>
+
+        <!--复制Main资源文件到classes-->
+        <copy todir="${main.output.dir}">
+            <fileset dir="${main.java.dir}">
+                <patternset refid="compiler.resources"/>
+            </fileset>
+			<fileset dir="${main.resource.dir}">
+				<patternset refid="compiler.resources"/>
+			</fileset>        	
+        </copy>
+
+        <!--编译test文件-->
+        <javac destdir="${test.output.dir}">
+        	<compilerarg line="${compiler.args}"/>
+        	<classpath refid="test.classpath"/>
+            <src path="${test.java.dir}"/>
+        	<src path="${test.resource.dir}"/>
+        </javac>
+
+        <!--复制资源文件到test/classes-->
+        <copy todir="${test.output.dir}">
+            <fileset dir="${test.java.dir}">
+                <patternset refid="compiler.resources"/>
+            </fileset>
+            <fileset dir="${test.resource.dir}">
+                <patternset refid="compiler.resources"/>
+            </fileset>        	
+        </copy>
+
+    </target>
+	
+    <!-- 生成war文件 -->
+    <target name="war" depends="compile" description="生成war文件">
+        <property name="release.warfile" value="target/${project.name}.war"/>
+    	
+        <delete file="${release.warfile}"/>
+    	
+    	<buildnumber/>
+
+        <war destfile="${release.warfile}" webxml="webapp/WEB-INF/web.xml" basedir="webapp">
+        	<exclude name="**/web.xml"/>
+        	<!--<exclude name="**/upload/**"/>-->
+        	<exclude name="**/logs/**"/>
+
+            <manifest>
+                <attribute name="Author" value="${project.author}"/>
+                <section name="Shared">
+                    <attribute name="Vendor" value="${project.author}"/>
+                    <attribute name="Version" value="${project.version}"/>
+                    <attribute name="Build" value="${build.number}"/>
+                    <attribute name="Date" value="${timestamp}"/>
+                </section>
+                <section name="Copyright">
+                    <attribute name="Copy" value="(C) ${project.author} 2010"/>
+                </section>
+            </manifest>
+        </war>
+    </target>
+	
+	<taskdef name="dbunit" classname="org.dbunit.ant.DbUnitTask" classpathref="test.classpath">
+		<classpath refid="test.classpath" /> 
+	</taskdef>
+
+	<target name="init-db"> 
+		<!--
+		<dbunit driver="com.ibm.db2.jcc.DB2Driver" supportBatchStatement="false"
+			url="jdbc:db2://192.168.1.6:50000/CCEWEB"
+			userid="db2inst1"
+			password="db2inst1">
+			<classpath refid="test.classpath"/>
+			<operation type="CLEAN_INSERT" src="${test.resource.dir}/test-data.xml"/>
+		</dbunit>
+        	-->
+		<dbunit driver="oracle.jdbc.driver.OracleDriver"  supportBatchStatement="false"
+					url="jdbc:oracle:thin:@192.168.1.218:1521:orcl"
+					userid="weaponry"
+					password="weaponry">
+					<classpath refid="test.classpath"/>
+					<operation type="CLEAN_INSERT" src="${test.resource.dir}/test-data.xml"/>
+				</dbunit>
+				
+	</target> 
+	
+	<!-- 导出DB数据到XML -->
+	<target name="export-db"> 
+		<!--
+		<dbunit driver="com.ibm.db2.jcc.DB2Driver" supportBatchStatement="false"
+			url="jdbc:db2://192.168.1.6:50000/CCEWEB"
+			userid="db2inst1"
+			password="db2inst1">
+			<classpath refid="test.classpath"/>
+			<export dest="${test.resource.dir}/db-export.xml"/>
+		</dbunit>
+		-->
+		<dbunit driver="org.h2.Driver"  supportBatchStatement="false"
+			url="jdbc:h2:tcp://localhost/~/weaponry"
+			userid="sa"
+			password="">
+			<classpath refid="test.classpath"/>
+			<export dest="${test.resource.dir}/db-export.xml"/>
+		</dbunit>
+		
+	</target> 	
+	
+    <!--运行JUnit测试-->
+    <target name="test" depends="compile, init-db" description="运行JUnit测试">
+        <!-- Check  junit.jar available -->
+        <echo message="测试前先手工启动数据库 ../tools/h2/h2w.bat"/>
+        <available classname="junit.framework.TestCase" property="junit.present"/>
+        <fail unless="junit.present" message="Please copy lib/junit-4.4.jar into env.ANT_HOME/lib or Class Path"/>
+        <delete dir="${test.report.dir}"/>
+        <mkdir dir="${test.report.dir}"/>
+        <junit printsummary="no" fork="true" errorProperty="test.failed" failureProperty="test.failed">
+            <classpath>
+                <path refid="test.classpath"/>
+            </classpath>
+            <formatter type="xml"/>
+            <formatter type="brief" usefile="false"/>
+
+            <batchtest todir="${test.data.dir}">
+                <fileset dir="${test.output.dir}">
+                	<exclude name="**/Base*.class"/>
+                    <include name="**/*Test.class"/>
+                </fileset>
+            </batchtest>
+        </junit>
+
+        <fail if="test.failed">Unit tests 失败. 要观看错误信息请运行"ant test-reports" ,在${test.report.dir}目录生成测试结果报表.</fail>
+    </target>
+
+    <target name="test-report" description="生成JUnit测试结果报表">
+        <mkdir dir="${test.report.dir}"/>
+        <junitreport todir="${test.output.dir}">
+            <fileset dir="${test.data.dir}">
+                <include name="TEST-*.xml"/>
+            </fileset>
+            <report format="frames" todir="${test.report.dir}"/>
+        </junitreport>
+    </target>
+
+    <target name="clean">
+        <delete dir="${main.output.dir}"/>
+        <delete dir="${test.output.dir}"/>
+    	<delete dir="${test.data.dir}"/>
+        <delete dir="${test.report.dir}"/>
+        <delete dir="webapp/WEB-INF/log"/>
+    </target>
+	
+</project>

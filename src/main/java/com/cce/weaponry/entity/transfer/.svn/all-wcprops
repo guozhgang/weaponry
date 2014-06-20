@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/transfer
+END
+InventoryStage.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/transfer/InventoryStage.java
+END
+TransportStage.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/transfer/TransportStage.java
+END
+ManagementInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/transfer/ManagementInfo.java
+END
+SaleStage.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/transfer/SaleStage.java
+END
+ButcherStage.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/transfer/ButcherStage.java
+END
+TraceInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/transfer/TraceInfo.java
+END

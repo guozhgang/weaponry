@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/test/java/com/cce/weaponry/unit/service/security
+END
+RoleServiceImplTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/test/java/com/cce/weaponry/unit/service/security/RoleServiceImplTest.java
+END
+AuthServiceImplTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/test/java/com/cce/weaponry/unit/service/security/AuthServiceImplTest.java
+END
+ResourceDetailsServiceTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/test/java/com/cce/weaponry/unit/service/security/ResourceDetailsServiceTest.java
+END
+UserDetailsServiceImplTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/test/java/com/cce/weaponry/unit/service/security/UserDetailsServiceImplTest.java
+END
+MenuServiceImplTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/test/java/com/cce/weaponry/unit/service/security/MenuServiceImplTest.java
+END
+UserServiceImplTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/test/java/com/cce/weaponry/unit/service/security/UserServiceImplTest.java
+END
+ResourceServiceTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/test/java/com/cce/weaponry/unit/service/security/ResourceServiceTest.java
+END

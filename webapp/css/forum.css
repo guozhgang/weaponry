@@ -1,0 +1,283 @@
+/*!
+ * Ext JS Library 3.2.0
+ * Copyright(c) 2006-2010 Ext JS, Inc.
+ * licensing@extjs.com
+ * http://www.extjs.com/license
+ */
+.x-grid3-td-topic b {
+    font-family:tahoma, verdana;
+    display:block;
+    color:#333;
+}
+.x-grid3-td-topic b i {
+    font-weight:normal;
+    font-style: normal;
+    color:#000;
+}
+.x-grid3-td-topic .topic {
+    padding-left:20px;
+    background:transparent url(message.png) no-repeat 0 2px;
+}
+.x-grid3-td-topic .x-grid3-cell-inner {
+    white-space:normal;
+}
+.x-grid3-td-topic a {
+    color: #385F95;
+    text-decoration:none;
+}
+.x-grid3-td-topic a:hover {
+    text-decoration:underline;
+}
+.details .x-btn-text {
+    background-image: url(details.gif);
+}
+.msg-view {
+    background-image: url(application_view_list.png) !important;
+}
+.preview {
+    background-image: urlpreview.png) !important;
+}
+.new-topic {
+    background-image: url(message_edit.png) !important;
+}
+.summary {
+    background-image: url(details.gif) !important;
+}
+.page{
+	background-image:url(../images/page.png) !important;
+}
+.user_add{
+	background-image:url(../images/user_add.png) !important;
+}
+.user_edit{
+	background-image:url(../images/user_edit.png) !important;
+}
+.user_delete{
+	background-image:url(../images/user_delete.png) !important;
+}
+.aut_add{
+	background-image:url(../images/aut_add.png) !important;
+}
+.aut_edit{
+	background-image:url(../images/aut.png) !important;
+}
+.aut_delete{
+	background-image:url(../images/aut_delete.png) !important;	
+}
+.res_add{
+	background-image:url(../images/res_add.png) !important;
+}
+.res_edit{
+	background-image:url(../images/res_edit.png) !important;
+}
+.res_delete{
+	background-image:url(../images/res_delete.png) !important;	
+}
+.group_add{
+	background-image:url(../images/group_add.png) !important;
+}
+.group_edit{
+	background-image:url(../images/group_edit.png) !important;
+}
+.group_delete{
+	background-image:url(../images/group_delete.png) !important;
+}
+
+.email_send{
+	background-image:url(../images/email_send.png) !important;
+}
+.email_edit{
+	background-image:url(../images/email_edit.png) !important;
+}
+.email_delete{
+	background-image:url(../images/email_delete.png) !important;
+}
+.add_news{
+	background-image:url(../images/add_news.png) !important;
+}
+.edit_news{
+	background-image:url(../images/edit_news.png) !important;
+}
+.delete_news{
+	background-image:url(../images/delete_news.png) !important;
+}
+.add_new_class{
+	background-image:url(../images/add_new_class.png) !important;
+}
+.add_news_class{
+	background-image:url(../images/add_news_class.png) !important;
+}
+.edit_new_class{
+	background-image:url(../images/edit_new_class.png) !important;
+}
+.edit_news_class{
+	background-image:url(../images/edit_news_class.png) !important;
+}
+.delete_new_class{
+	background-image:url(../images/delete_new_class.png) !important;
+}
+.delete_news_class{
+	background-image:url(../images/delete_news_class.png) !important;
+}
+.view_news_class{
+	background-image:url(../images/page.png) !important;
+}
+.inbox_new {
+	color: #F00;
+	font-weight: bold;
+}
+.cms_add_news{
+	background-image:url(../images/cms_add_news.png) !important;
+}
+.cms_edit_news{
+	background-image:url(../images/cms_edit_news.png) !important;
+}
+.cms_delete_news{
+	background-image:url(../images/cms_delete_news.png) !important;
+}
+.cms_view_news_class{
+	background-image:url(../images/cms_view_news_class.png) !important;
+}
+.cms_category_add{
+	background-image:url(../images/cms_category_add.png) !important;
+}
+.cms_category_edit{
+	background-image:url(../images/cms_category_edit.png) !important;
+}
+.cms_category_delete{
+	background-image:url(../images/cms_category_delete.png) !important;
+}
+.zoom_in{
+	background-image:url(../images/zoom_in.png) !important;
+}
+.zoom_out{
+	background-image:url(../images/zoom_out.png) !important;
+}
+.company_record_add{
+	background-image:url(../images/company_record_add.png) !important;
+}
+.company_record_edit{
+	background-image:url(../images/company_record_edit.png) !important;
+}
+.company_record_update{
+	background-image:url(../images/company_record_update.png) !important;
+}
+.company_record_delete{
+	background-image:url(../images/company_record_delete.png) !important;
+}
+.company_info{
+	font-size: 12px; 
+}
+.company_info_bold{
+	font-size: 12px;
+	font-weight: bold;
+}
+.x-grid3-row-body p {
+    margin:5px 20px 10px 25px !important;
+    color:#555;
+}
+
+.post-date {
+    font-weight:bold;
+    color:#333;
+}
+
+.author {
+    color:#333;
+}
+
+.x-tree {
+    background:#fff !important;
+}
+.x-border-layout-ct {
+    background:transparent;
+}
+body.x-border-layout-ct {
+    background:#c3d5ed url(../images/bg.gif) repeat-x left top  !important;
+}
+.x-layout-split {
+    background-color:transparent !important;
+}
+
+.x-tree-node div.forum-ct{
+    background:#eee url(../images/cmp-bg.gif) repeat-x;
+    margin-top:1px;
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ccc;
+    padding-top:2px;
+    padding-bottom:1px;
+}
+.forum-ct .x-tree-node-icon {
+    display:none;
+}
+.forum-ct a span {
+    font-weight:bold;
+    color:#222;
+}
+.forum {
+    border:1px solid #fff;
+}
+.forum .x-tree-ec-icon {
+    display:none;
+}
+.icon-forum {
+    background-image:url(../images/forum.gif) !important;
+}
+.x-tree-selected {
+    border:1px dotted #a3bae9;
+    background:#DFE8F6;
+}
+.x-tree-node .x-tree-selected a span{
+	background:transparent;
+	color:#15428b;
+    font-weight:bold;
+}
+
+#main-tabs .x-tab-panel-body {
+    background:transparent;
+    border:0 none;
+}
+
+#topic-grid .x-panel-tbar .x-toolbar {
+    border-top:0 none;
+}
+
+
+
+.ux-lovcombo-icon {   
+    width:16px;   
+    height:16px;   
+    float:left;   
+    background-position: -1px -1px ! important;   
+    background-repeat:no-repeat ! important;   
+}   
+.ux-lovcombo-icon-checked {   
+    background: transparent url(../js/ext/resources/images/default/menu/checked.gif);   
+}   
+.ux-lovcombo-icon-unchecked {   
+    background: transparent url(../js/ext/resources/images/default/menu/unchecked.gif);   
+}
+.MessageContentHread {
+	font-size: 12px;
+	background-color: #94B7E4;
+	border: 1px solid #666;
+	padding: 4px;
+ 
+}
+.MessageContent{
+  	padding: 4px;
+} 
+.datalist{ 
+	border:1px solid #0058a3; /* 表格边框 */ 
+	font-family:Arial; 
+	border-collapse:collapse; /* 边框重叠 */ 
+    background:#000000;     /* 表格背景色 */ 
+	font-size:14px; 
+} 
+.datalist td{ 
+	border:1px solid #0058a3; /* 单元格边框 */ 
+	background:#FFFFFF;
+	padding-top:4px; padding-bottom:4px; 
+	padding-left:10px; padding-right:10px; 
+
+}

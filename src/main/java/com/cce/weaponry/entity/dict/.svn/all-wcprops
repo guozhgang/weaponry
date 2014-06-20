@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/dict
+END
+DictAutoMation.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/dict/DictAutoMation.java
+END
+DictApproach.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/dict/DictApproach.java
+END
+DictApprovalStatus.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/dict/DictApprovalStatus.java
+END
+DictTraceEventType.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/dict/DictTraceEventType.java
+END
+DictInnocuousType.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/dict/DictInnocuousType.java
+END
+DictCompanyCharacter.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/dict/DictCompanyCharacter.java
+END
+DictTechType.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/dict/DictTechType.java
+END
+IDict.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/dict/IDict.java
+END
+DictTraceQtyUnit.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/dict/DictTraceQtyUnit.java
+END
+DictCompanyLevel.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/dict/DictCompanyLevel.java
+END
+DictCompanyCredit.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/dict/DictCompanyCredit.java
+END
+DictCheckStep.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/dict/DictCheckStep.java
+END
+DictTraceSystemStatus.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/dict/DictTraceSystemStatus.java
+END
+DictTraceHealthStatus.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/dict/DictTraceHealthStatus.java
+END
+DictTraceWeightUnit.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/dict/DictTraceWeightUnit.java
+END

@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/service/training
+END
+FileMananger.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/service/training/FileMananger.java
+END
+XmlConfigServiceDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/service/training/XmlConfigServiceDao.java
+END
+PublishTypeServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/service/training/PublishTypeServiceImpl.java
+END
+FileInfoService.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/service/training/FileInfoService.java
+END
+EntryServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/service/training/EntryServiceImpl.java
+END
+EntryService.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/service/training/EntryService.java
+END
+FileService.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/service/training/FileService.java
+END
+ChatService.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/service/training/ChatService.java
+END
+XmlConfigService.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/service/training/XmlConfigService.java
+END
+ProjectServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/service/training/ProjectServiceImpl.java
+END
+FileConfigService.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/service/training/FileConfigService.java
+END
+ProjectService.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/service/training/ProjectService.java
+END
+RemoveFileTypeInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/service/training/RemoveFileTypeInfo.java
+END
+FileConfigServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/service/training/FileConfigServiceImpl.java
+END
+ChatServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/service/training/ChatServiceImpl.java
+END
+PublishTypeService.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/service/training/PublishTypeService.java
+END

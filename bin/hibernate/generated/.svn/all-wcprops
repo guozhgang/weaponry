@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/bin/hibernate/generated
+END
+ResourceDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/bin/hibernate/generated/ResourceDao.java
+END
+SsUserRole.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/bin/hibernate/generated/SsUserRole.java
+END
+SsUser.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/bin/hibernate/generated/SsUser.java
+END
+RoleManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/bin/hibernate/generated/RoleManager.java
+END
+AuthorityDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/bin/hibernate/generated/AuthorityDao.java
+END
+AuthorityManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/bin/hibernate/generated/AuthorityManager.java
+END
+UserDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/bin/hibernate/generated/UserDao.java
+END
+SsUserRoleId.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/bin/hibernate/generated/SsUserRoleId.java
+END
+UserDaoTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/bin/hibernate/generated/UserDaoTest.java
+END
+SsAuthority.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/bin/hibernate/generated/SsAuthority.java
+END
+UserManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/bin/hibernate/generated/UserManager.java
+END
+SsResourceAuthorityId.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/bin/hibernate/generated/SsResourceAuthorityId.java
+END
+schema.sql
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/bin/hibernate/generated/schema.sql
+END
+SsResource.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/bin/hibernate/generated/SsResource.java
+END
+RoleDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/bin/hibernate/generated/RoleDao.java
+END
+SsRoleAuthority.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/bin/hibernate/generated/SsRoleAuthority.java
+END
+SsResourceAuthority.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/bin/hibernate/generated/SsResourceAuthority.java
+END
+SsRole.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/bin/hibernate/generated/SsRole.java
+END
+ResourceDaoTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/bin/hibernate/generated/ResourceDaoTest.java
+END
+AuthorityDaoTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/bin/hibernate/generated/AuthorityDaoTest.java
+END
+SsRoleAuthorityId.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/bin/hibernate/generated/SsRoleAuthorityId.java
+END
+RoleDaoTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/bin/hibernate/generated/RoleDaoTest.java
+END
+ResourceManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/bin/hibernate/generated/ResourceManager.java
+END

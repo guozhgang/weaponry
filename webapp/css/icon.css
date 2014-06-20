@@ -1,0 +1,151 @@
+
+.net_pass{
+	background-image:url(../images/net_pass.gif) !important;
+}
+.net_back{
+	background-image:url(../images/net_back.png) !important;
+}
+.local_back{
+	background-image:url(../images/local_back.png) !important;
+}
+.local_pass{
+	background-image:url(../images/local_pass.png) !important;
+}
+.provice_pass{
+	background-image:url(../images/provice_pass.png) !important;
+}
+.provice_back{
+	background-image:url(../images/provice_back.png) !important;
+}
+.training_record_add{
+	background-image:url(../images/training_record_add.png) !important;
+}
+.training_delete{
+	background-image:url(../images/training_delete.png) !important;
+} 
+.company_expert_add{
+	background-image:url(../images/company_expert_add.png) !important;
+}
+.expert_add{
+	background-image:url(../images/expert_add.png) !important;
+}
+.company_expert_delete{
+	background-image:url(../images/company_expert_delete.png) !important;
+}
+.expert_delete{
+	background-image:url(../images/expert_delete.png) !important;
+}
+.company_expert_edit{
+	background-image:url(../images/company_expert_edit.png) !important;
+}
+.expert_edit{
+	background-image:url(../images/expert_edit.png) !important;
+}
+.company_record_adds{
+	background-image:url(../images/company_record_adds.png) !important;
+}
+.company_enforce_update{
+	background-image:url(../images/company_enforce_update.png) !important;
+}
+.company_expert_adds{
+	background-image:url(../images/company_expert_adds.png) !important;
+}
+.company_inno_add{
+	background-image:url(../images/company_inno_add.png) !important;
+}
+.company_inno_edit{
+	background-image:url(../images/company_inno_edit.png) !important;
+}
+.submit_inno{
+	background-image:url(../images/submit_inno.png) !important;
+}
+.company_inno_delete{
+	background-image:url(../images/company_inno_delete.png) !important;
+}
+.res_inno_add{
+	background-image:url(../images/res_inno_add.png) !important;
+}
+.user_edit{
+	background-image:url(../images/user_edit.png) !important;
+}
+.company_info{
+	background : #F2F2F2;
+}
+.companyinfo{
+	background-image:url(../images/companyinfo.png) !important;
+}
+.config{
+	background-image:url(../images/config.png) !important;
+}
+.treat{
+	background-image:url(../images/treat.png) !important;
+}
+.back{
+	background-image:url(../images/back.png) !important;
+}
+.info{
+	background-image:url(../images/info.png) !important;
+}
+.company_level_show{
+	background-image:url(../images/company_level_show.png) !important;
+}
+.team_add{
+	background-image:url(../images/team_add.png) !important;
+}
+.team_edit{
+	background-image:url(../images/team_edit.png) !important;
+}
+.team_delete{
+	background-image:url(../images/team_delete.png) !important;
+}
+.select{
+	background-image:url(../images/select.gif) !important;
+}
+.selectby{
+	background-image:url(../images/selectby.gif) !important;
+}
+.stat{
+	background-image:url(../images/stat.gif) !important;
+}
+.zz{
+	background-image:url(../images/zz.gif) !important;
+}
+.submit{
+	background-image:url(../images/submit.gif) !important;
+}
+.enforce_add{
+	background-image:url(../images/enforce_add.png) !important;
+}
+.enforce_edit{
+	background-image:url(../images/enforce_edit.png) !important;
+}
+.enforce_delete{
+	background-image:url(../images/enforce_delete.png) !important;
+}
+.change_credit{
+	background-image:url(../images/change_credit.png) !important;
+}
+.company_level_add{
+	background-image:url(../images/company_level_add.png) !important;
+}
+.company_level_edit{
+	background-image:url(../images/company_level_edit.png) !important;
+}
+.company_level_submit{
+	background-image:url(../images/company_level_submit.png) !important;
+}
+.company_level_delete{
+	background-image:url(../images/company_level_delete.png) !important;
+}
+.company_credit_add{
+	background-image:url(../images/company_credit_add.png) !important;
+}
+.company_credit_submit{
+	background-image:url(../images/company_credit_submit.png) !important;
+}
+.company_credit_delete{
+	background-image:url(../images/company_credit_delete.png) !important;
+}
+.ronly{
+	background : #F2F2F2;
+}

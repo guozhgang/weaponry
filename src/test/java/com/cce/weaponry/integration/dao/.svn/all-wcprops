@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/zbms/!svn/ver/19/trunk/weaponry/cce-web/src/test/java/com/cce/weaponry/integration/dao
+END
+HibernateMappingTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/test/java/com/cce/weaponry/integration/dao/HibernateMappingTest.java
+END
+RegionDaoTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/test/java/com/cce/weaponry/integration/dao/RegionDaoTest.java
+END
+CompanyLevelTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/test/java/com/cce/weaponry/integration/dao/CompanyLevelTest.java
+END

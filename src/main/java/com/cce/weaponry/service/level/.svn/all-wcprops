@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/service/level
+END
+CompanyLevelItemTemplateService.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/service/level/CompanyLevelItemTemplateService.java
+END
+CompanyLevelTemplateService.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/service/level/CompanyLevelTemplateService.java
+END
+CheckExpertService.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/service/level/CheckExpertService.java
+END
+ApproveLevelDetailService.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/service/level/ApproveLevelDetailService.java
+END
+CheckMemberService.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/service/level/CheckMemberService.java
+END
+CompanyLevelService.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/service/level/CompanyLevelService.java
+END
+CheckStepsService.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/service/level/CheckStepsService.java
+END
+CheckTeamService.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/service/level/CheckTeamService.java
+END
+CompanyLevelDetailService.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/service/level/CompanyLevelDetailService.java
+END
+Approval4LevelService.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/service/level/Approval4LevelService.java
+END

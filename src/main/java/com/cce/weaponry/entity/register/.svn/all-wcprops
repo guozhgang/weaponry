@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/zbms/!svn/ver/19/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/register
+END
+Approval4Register.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/register/Approval4Register.java
+END
+TechnicianBadge.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/register/TechnicianBadge.java
+END
+TechnicianInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/register/TechnicianInfo.java
+END
+QualityInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/register/QualityInfo.java
+END
+CompanyBadge.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/register/CompanyBadge.java
+END
+BusinessCase.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/register/BusinessCase.java
+END
+Region.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/register/Region.java
+END
+FileBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/zbms/!svn/ver/19/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/register/FileBean.java
+END
+CompanyInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/zbms/!svn/ver/19/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/register/CompanyInfo.java
+END
+ApproveRegisterDetail.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/zbms/!svn/ver/19/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/register/ApproveRegisterDetail.java
+END
+EnforceOrg.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/register/EnforceOrg.java
+END
+EnforceOfficer.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/register/EnforceOfficer.java
+END
+EnforceOfficerBadge.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/register/EnforceOfficerBadge.java
+END
+Company.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/zbms/!svn/ver/19/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/register/Company.java
+END
+UserBadge.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/register/UserBadge.java
+END
+OrganizationInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/register/OrganizationInfo.java
+END

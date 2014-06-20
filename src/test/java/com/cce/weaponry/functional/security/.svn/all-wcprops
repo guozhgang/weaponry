@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/test/java/com/cce/weaponry/functional/security
+END
+UserManagerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/test/java/com/cce/weaponry/functional/security/UserManagerTest.java
+END
+SecurityCheckingTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/test/java/com/cce/weaponry/functional/security/SecurityCheckingTest.java
+END
+RoleManagerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/test/java/com/cce/weaponry/functional/security/RoleManagerTest.java
+END

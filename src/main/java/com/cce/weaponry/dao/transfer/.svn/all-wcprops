@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/dao/transfer
+END
+SaleStageDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/dao/transfer/SaleStageDao.java
+END
+InventoryStageDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/dao/transfer/InventoryStageDao.java
+END
+TransportStageDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/dao/transfer/TransportStageDao.java
+END
+TraceInfoDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/dao/transfer/TraceInfoDao.java
+END
+ManagementInfoDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/dao/transfer/ManagementInfoDao.java
+END
+ButcherStageDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/dao/transfer/ButcherStageDao.java
+END

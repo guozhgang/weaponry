@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/test/resources
+END
+applicationContext-test.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/test/resources/applicationContext-test.xml
+END
+test-data.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/test/resources/test-data.xml
+END
+test-data-测试数据.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/test/resources/test-data-%E6%B5%8B%E8%AF%95%E6%95%B0%E6%8D%AE.xml
+END
+application.test.properties
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/test/resources/application.test.properties
+END
+db-export.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/test/resources/db-export.xml
+END

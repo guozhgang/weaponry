@@ -1,0 +1,106 @@
+8
+
+dir
+21
+http://soft-server/svn/zbms/trunk/weaponry/cce-web/bin/hibernate
+http://soft-server/svn/zbms
+
+
+
+2014-06-11T03:40:44.672500Z
+13
+xinglifeng
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+c857d626-0701-4c40-b05f-29447147eddd
+
+build.xml
+file
+
+
+
+
+2014-06-12T01:26:19.364000Z
+450b9429befc96f4eb829b8ce3051f92
+2014-06-11T03:40:44.672500Z
+13
+xinglifeng
+
+generate-code.bat
+file
+
+
+
+
+2014-06-12T01:26:19.293000Z
+1d60e9346f05142d49a2f60552e4ee59
+2014-06-11T03:40:44.672500Z
+13
+xinglifeng
+
+generate-ddl.bat
+file
+
+
+
+
+2014-06-12T01:26:19.279000Z
+7695d9f741d1c5fa2b75c15dcf735a86
+2014-06-11T03:40:44.672500Z
+13
+xinglifeng
+
+generate-pojo.bat
+file
+
+
+
+
+2014-06-12T01:26:19.283000Z
+e5c14dfeb7e164f857c44615354f92d2
+2014-06-11T03:40:44.672500Z
+13
+xinglifeng
+
+generated
+dir
+
+hibernate-templates
+dir
+
+hibernate.cfg.xml
+file
+
+
+
+
+2014-06-12T01:26:19.574000Z
+47944f06f975a62d23076cc4604c3a7a
+2014-06-11T03:40:44.672500Z
+13
+xinglifeng
+
+hibernate.reveng.xml
+file
+
+
+
+
+2014-06-12T01:26:19.289000Z
+41b1eca58133e0aafddb3acfabb36a84
+2014-06-11T03:40:44.672500Z
+13
+xinglifeng
+

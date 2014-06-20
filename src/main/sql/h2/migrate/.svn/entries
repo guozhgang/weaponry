@@ -1,0 +1,40 @@
+8
+
+dir
+21
+http://soft-server/svn/zbms/trunk/weaponry/cce-web/src/main/sql/h2/migrate
+http://soft-server/svn/zbms
+
+
+
+2014-06-11T03:40:44.672500Z
+13
+xinglifeng
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+c857d626-0701-4c40-b05f-29447147eddd
+
+3_1_0_to_3_2_0.sql
+file
+
+
+
+
+2014-06-12T01:26:07.659000Z
+d41d8cd98f00b204e9800998ecf8427e
+2014-06-11T03:40:44.672500Z
+13
+xinglifeng
+

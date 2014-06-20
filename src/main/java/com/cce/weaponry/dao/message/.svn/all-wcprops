@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/dao/message
+END
+InnerMessageDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/dao/message/InnerMessageDao.java
+END
+DraftBoxDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/dao/message/DraftBoxDao.java
+END
+SenderMessageDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/dao/message/SenderMessageDao.java
+END
+AttachmentDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/dao/message/AttachmentDao.java
+END

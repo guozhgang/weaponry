@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/test/java/com/cce/weaponry/integration/dao/security
+END
+UserDaoTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/test/java/com/cce/weaponry/integration/dao/security/UserDaoTest.java
+END
+MenuDaoTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/test/java/com/cce/weaponry/integration/dao/security/MenuDaoTest.java
+END
+ResourceDaoTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/test/java/com/cce/weaponry/integration/dao/security/ResourceDaoTest.java
+END
+RoleDaoTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/test/java/com/cce/weaponry/integration/dao/security/RoleDaoTest.java
+END

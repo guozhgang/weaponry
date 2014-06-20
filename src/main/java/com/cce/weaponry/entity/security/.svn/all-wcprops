@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/zbms/!svn/ver/19/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/security
+END
+Authority.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/security/Authority.java
+END
+Resource.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/security/Resource.java
+END
+User.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/security/User.java
+END
+Menu.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/security/Menu.java
+END
+Role.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/zbms/!svn/ver/19/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/security/Role.java
+END

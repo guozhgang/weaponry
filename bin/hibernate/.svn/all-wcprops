@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/bin/hibernate
+END
+hibernate.reveng.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/bin/hibernate/hibernate.reveng.xml
+END
+generate-ddl.bat
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/bin/hibernate/generate-ddl.bat
+END
+generate-code.bat
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/bin/hibernate/generate-code.bat
+END
+hibernate.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/bin/hibernate/hibernate.cfg.xml
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/bin/hibernate/build.xml
+END
+generate-pojo.bat
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/bin/hibernate/generate-pojo.bat
+END

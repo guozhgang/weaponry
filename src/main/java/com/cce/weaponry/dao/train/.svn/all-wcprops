@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/dao/train
+END
+TrainingOwnerDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/dao/train/TrainingOwnerDao.java
+END
+OnlineTrainingDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/dao/train/OnlineTrainingDao.java
+END
+TraningHistoryDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/dao/train/TraningHistoryDao.java
+END
+TrainingTestDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/dao/train/TrainingTestDao.java
+END
+TrainingMemberDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/dao/train/TrainingMemberDao.java
+END
+TestQuestionDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/dao/train/TestQuestionDao.java
+END
+TestResultDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/dao/train/TestResultDao.java
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/test/java/com/cce/weaponry/unit/service/companyInfo/record
+END
+EnforceOfficerProcessTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/test/java/com/cce/weaponry/unit/service/companyInfo/record/EnforceOfficerProcessTest.java
+END
+CompanyInfoTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/test/java/com/cce/weaponry/unit/service/companyInfo/record/CompanyInfoTest.java
+END
+CityTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/test/java/com/cce/weaponry/unit/service/companyInfo/record/CityTest.java
+END
+BusinessCaseTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/test/java/com/cce/weaponry/unit/service/companyInfo/record/BusinessCaseTest.java
+END
+RecordStatsTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/test/java/com/cce/weaponry/unit/service/companyInfo/record/RecordStatsTest.java
+END
+ProvinceTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/test/java/com/cce/weaponry/unit/service/companyInfo/record/ProvinceTest.java
+END
+CountyTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/test/java/com/cce/weaponry/unit/service/companyInfo/record/CountyTest.java
+END

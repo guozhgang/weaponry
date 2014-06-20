@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/zbms/!svn/ver/15/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/dao/security
+END
+ResourceDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/dao/security/ResourceDao.java
+END
+MenuDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/zbms/!svn/ver/15/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/dao/security/MenuDao.java
+END
+RoleDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/dao/security/RoleDao.java
+END
+AuthorityDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/dao/security/AuthorityDao.java
+END
+UserDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/dao/security/UserDao.java
+END

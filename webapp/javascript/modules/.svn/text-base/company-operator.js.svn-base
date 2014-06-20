@@ -1,0 +1,330 @@
+Ext.ns("com.cce.companyoperator");
+//------------------------------------------------------------------------------
+//Module的proxy定义..
+//------------------------------------------------------------------------------
+var proxy = new Ext.data.HttpProxy({
+api: {
+	    read : 'record/business-case!search.action',
+	    create : 'record/business-case!save.action',
+	    update:'record/business-case!save.action'
+	}
+});
+
+//------------------------------------------------------------------------------
+//Module的reader定义..
+//------------------------------------------------------------------------------
+var reader = new Ext.data.JsonReader(
+	{
+		root:'data',
+		totalProperty:"total",
+		successProperty: 'success',
+		messageProperty: 'message' //必须定义messageProperty,才能使event handler拿到message消息
+	},	
+	[ 
+	    	{name: 'id',mapping:"id"},
+	    	{name: 'companyName',mapping:'companyName'},
+	    	{name: 'butcherQuantity',mapping:'butcherQuantity'},
+	    	{name: 'taking',mapping:'taking'},
+	    	{name: 'profitTax',mapping:'profitTax'},
+	        {name: 'createDate',mapping:"createDate",type:'date',dateFormat:'time'},
+	        {name: 'updateDate',mapping:"updateDate",type:'date',dateFormat:'time'},
+	    	{name: 'totalAssets',mapping:'totalAssets'},
+	    	{name: 'employeeNumbers',mapping:'employeeNumbers'},
+			{name: 'totalliabilities',mapping:'totalliabilities'}
+	]
+);
+
+//------------------------------------------------------------------------------
+//Module的writer定义..
+//------------------------------------------------------------------------------
+var writer = new Ext.data.JsonWriter({
+	encode: true,
+	writeAllFields: false
+});
+var store = new Ext.data.Store({
+    id: 'id',
+    reader: reader,
+    proxy : proxy,
+    writer:writer,
+    autoSave: false
+  });   
+//------------------------------------------------------------------------------
+//Module的columns定义..
+//------------------------------------------------------------------------------
+var columns = [
+    new Ext.grid.CheckboxSelectionModel(), 
+	{header:'实际屠宰量',dataIndex:'butcherQuantity'},
+	{header:'营业收入',dataIndex:'taking'},
+	{header:'实现利税',dataIndex:'profitTax'},
+	{header:'负债总额',dataIndex:'totalliabilities'},
+	{header:'职工人数',dataIndex:'employeeNumbers'},
+	{header:'资产总额',dataIndex:'totalAssets'},
+	{header:'创建时间',dataIndex:'createDate',renderer:Ext.util.Format.dateRenderer('Y年m月d日 H时i分s秒'),sortable:true},
+	{header:'修改时间',dataIndex:'updateDate',renderer:Ext.util.Format.dateRenderer('Y年m月d日 H时i分s秒'),sortable:true}
+];
+ 
+
+
+
+//------------------------------------------------------------------------------
+//Module的CompanyRecordGrid定义..
+//------------------------------------------------------------------------------
+
+com.cce.companyoperator.CompanyOperatorInputMaster = Ext.extend(Ext.grid.GridPanel, {
+	  stripeRows: true,
+	  loadMask: true,
+	  border: false,
+	  region:'center',
+	  closable:true,
+	  layout:'fit',
+	  frame:true,
+	  store:store,
+	   sm : new Ext.grid.CheckboxSelectionModel(),
+	   columns:columns,
+	  initComponent : function() {
+		    // typical viewConfig
+		    this.viewConfig = {
+		        forceFit: true
+		    };
+		
+		    // build toolbars and buttons.
+		    this.tbar = this.buildTopToolbar();
+		     this.bbar = this.buildBottomToolbar();
+  
+		    
+		    // super
+		    com.cce.companyoperator.CompanyOperatorInputMaster.superclass.initComponent.call(this);
+		    
+		    this.addEvents(
+		    	'doedit'
+		    );
+		},
+		
+		 /**
+	   * buildTopToolbar
+	   */
+	  buildTopToolbar : function() {
+		return [{
+				text:"新建",
+				iconCls:"company_level_add",
+				id:'addBtn_operator',
+				scope: this,
+				handler:this.onAdd
+    	},
+		{
+				text:"修改",
+				iconCls:"company_level_edit",
+				id:'edtBtn_operator',
+				scope: this,
+				handler:this.onEdit
+		}
+ 
+		];
+	  },
+	  buildBottomToolbar : function() {
+		  	return new Ext.PagingToolbar({
+		          pageSize: 20,
+		          store: this.store,
+		          displayInfo: true
+		      });
+		  },
+	
+	  /**
+	   * onAdd
+	   */
+	  onAdd : function() {
+	      this.fireEvent('doedit', this, this.store, null);
+	  },
+	  onEdit : function(){
+		  var record = this.getSelectionModel().getSelected();
+	      if (!record) {
+	            return false;
+	      }
+	      this.fireEvent('doedit', this, this.store, record);
+	  } 
+	  
+});
+//
+com.cce.companyoperator.companyOperatorInputForm=Ext.extend(Ext.form.FormPanel,{
+	title:'企业经营状况',
+	modal:true,
+	labelWidth: 75,
+	width:550,
+	height:500,
+	padding:10,
+	header:false,
+	frame:true,
+	region:'center',
+	layout:"form",
+	autoScroll:true,
+	initComponent:function(){
+		this.items=this.buildForm();
+		this.buttons=this.buildUI();
+		this.addEvents('doedit','afterSave');
+		com.cce.companyoperator.companyOperatorInputForm.superclass.initComponent.call(this);
+
+	},
+	buildForm : function() {
+		return [
+				{
+					xtype:"textfield",
+					fieldLabel:"实际屠宰量",
+					name:'butcherQuantity',
+					id:'butcherQuantity',
+					anchor:"100%",
+					regex:/^\d+(\.\d+)?$/,
+					regexText : '请输入数字',
+					allowBlank:false
+
+				},
+				{
+					xtype:"textfield",
+					fieldLabel:"营业收入",
+					name:'taking',
+					id:'taking',
+					anchor:"100%", 
+	      			allowBlank : false,
+	      			regex:/^\d+(\.\d+)?$/,
+	      			regexText : '请输入数字'
+
+				},
+				{
+					xtype:"textfield",
+					fieldLabel:"资产总额",
+					name:'totalAssets',
+					id:'totalAssets',
+					anchor:"100%", 
+	      			allowBlank : false,
+	      			regex:/^\d+(\.\d+)?$/,
+	      			regexText : '请输入数字'
+
+				},
+				{
+					xtype:"textfield",
+					fieldLabel:"负债总额",
+					name:'totalliabilities',
+					id:'totalliabilities',
+					anchor:"100%", 
+	      			allowBlank : false,
+	      			regex:/^\d+(\.\d+)?$/,
+	      			regexText : '请输入数字'
+
+				},
+				{
+					xtype:"textfield",
+					fieldLabel:"职工人数",
+					name:'employeeNumbers',
+					id:'employeeNumbers',
+					anchor:"100%", 
+	      			allowBlank : false,
+	      			regex:/^\d+$/,
+	      			regexText : '请输入数字'
+
+				},
+				{
+					xtype:"textfield",
+					fieldLabel:"实现利税",
+					name:'profitTax',
+					id:'profitTax',
+					anchor:"100%", 
+	      			allowBlank : false,
+	      			regex:/^\d+(\.\d+)?$/,
+	      			regexText : '请输入数字'
+
+				},new Ext.form.Hidden({
+					name:"id",
+					id:'id',
+					hiddenName:'id'
+				})
+	
+				]},
+
+	    buildUI : function(){
+	      return [
+		  	{
+		       text: '保存',
+		       handler:this.onSave,
+		       scope: this
+		    },
+		  	{
+	          text: '关闭',
+	          handler: function(btn, ev){
+		    	this.fireEvent('afterSave', this, null);
+	          },
+	          scope: this
+	      }];
+	},
+	loadRecord : function(rec) {
+	      this.record = rec;
+	      this.getForm().loadRecord(this.record);
+	},
+	onSave : function(btn, record) {
+	      if (this.record == null) {
+	          return;
+	      }
+	      if (!this.getForm().isValid()) {
+	          App.setAlert(false, "表单数据有错误.");
+	          return false;
+	      }
+	        store.add(new  store.recordType(this.getForm().getValues()));
+		    store.save();
+	        store.on('save',function(s,b,d){
+		    	 store.load({params:{start:0,limit:20}});
+		    },this);
+	        this.fireEvent('afterSave', this, null);
+	} 
+});
+//////////////////////////////////
+
+	 
+    
+ ///////////////////////////////
+Ext.extend(com.cce.Module, {
+	win: null,
+	init: function(){
+		this.master = new com.cce.companyoperator.CompanyOperatorInputMaster({store:store});
+ 	    this.master.on('doedit',this.showForm,this);
+		this.main.add(this.master);
+	  	this.main.doLayout();
+	  	store.reload();
+	  	store.on('save',function(s,b,d){
+	    	 store.load({params:{start:0,limit:20}});
+	    },this);
+	} , 
+    showForm : function(g, store, record){
+    	if(!record){
+	        record = new store.recordType({
+	        });
+		}
+	var form = new com.cce.companyoperator.companyOperatorInputForm();
+	this.win = new Ext.Window({
+	    title: '企业经营状况',
+	    closable:true,
+	    width:520,
+	    height:340,
+	    constrain:true,
+	    plain:true,
+	    layout: 'border',
+	    resizable:true,
+	    autoScroll: true,
+	    modal:true,
+	    items: [form]
+	});
+	form.loadRecord(record);		
+	form.on('afterSave',this.afterSave,this);
+	this.win.show();
+} ,
+	afterSave : function(fp, record){
+        this.win.close();
+	},
+    reload:function(){
+		store.reload();
+	}
+ 
+});
+ 
+
+ 
+ 
+ 
+	 

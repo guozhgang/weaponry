@@ -1,0 +1,54 @@
+8
+
+dir
+21
+http://soft-server/svn/zbms/trunk/weaponry/cce-web/webapp/images/psd_resource
+http://soft-server/svn/zbms
+
+
+
+2014-06-11T03:40:44.672500Z
+13
+xinglifeng
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+c857d626-0701-4c40-b05f-29447147eddd
+
+banner.psd
+file
+
+
+
+
+2014-06-12T01:26:26.817000Z
+cf4b8bffdea31681534f8dcade6f442c
+2014-06-11T03:40:44.672500Z
+13
+xinglifeng
+has-props
+
+登录界面.psd
+file
+
+http://soft-server/svn/zbms/trunk/weaponry/cce-web/webapp/images/psd_resource/%E7%99%BB%E5%BD%95%E7%95%8C%E9%9D%A2.psd
+
+
+2014-06-12T01:26:26.800000Z
+50d0712a2de949aecdd4db04c6c71969
+2014-06-11T03:40:44.672500Z
+13
+xinglifeng
+has-props
+

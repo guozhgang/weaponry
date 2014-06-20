@@ -1,0 +1,52 @@
+8
+
+dir
+21
+http://soft-server/svn/zbms/trunk/weaponry/cce-web/webapp/fckeditor/editor/plugins/bbcode/_sample
+http://soft-server/svn/zbms
+
+
+
+2014-06-11T03:40:44.672500Z
+13
+xinglifeng
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+c857d626-0701-4c40-b05f-29447147eddd
+
+sample.config.js
+file
+
+
+
+
+2014-06-12T01:26:37.304000Z
+5e3dd6db5db87a7890f40089d668d3f8
+2014-06-11T03:40:44.672500Z
+13
+xinglifeng
+
+sample.html
+file
+
+
+
+
+2014-06-12T01:26:37.309000Z
+67e75b7f25a3374d5fbfffa0b99a3605
+2014-06-11T03:40:44.672500Z
+13
+xinglifeng
+

@@ -1,0 +1,61 @@
+8
+
+dir
+21
+http://soft-server/svn/zbms/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/dao
+http://soft-server/svn/zbms
+
+
+
+2014-06-12T01:16:26.875625Z
+19
+xinglifeng
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+c857d626-0701-4c40-b05f-29447147eddd
+
+config
+dir
+
+credit
+dir
+
+level
+dir
+
+message
+dir
+
+news
+dir
+
+register
+dir
+
+security
+dir
+
+traceinfo
+dir
+
+train
+dir
+
+training
+dir
+
+transfer
+dir
+

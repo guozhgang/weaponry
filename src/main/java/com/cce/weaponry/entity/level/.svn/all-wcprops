@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/zbms/!svn/ver/19/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/level
+END
+Approval4Level.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/zbms/!svn/ver/19/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/level/Approval4Level.java
+END
+ApproveLevelDetail.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/zbms/!svn/ver/19/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/level/ApproveLevelDetail.java
+END
+CompanyLevelTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/level/CompanyLevelTemplate.java
+END
+CheckExpert.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/level/CheckExpert.java
+END
+CompanyLevelItemTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/zbms/!svn/ver/19/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/level/CompanyLevelItemTemplate.java
+END
+CheckMember.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/level/CheckMember.java
+END
+CheckTeam.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/level/CheckTeam.java
+END
+ProfessorTeam.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/level/ProfessorTeam.java
+END
+CheckSteps.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/level/CheckSteps.java
+END
+CompanyLevelDetail.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/level/CompanyLevelDetail.java
+END
+ProfessorInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/level/ProfessorInfo.java
+END
+CompanyLevel.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/zbms/!svn/ver/19/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/level/CompanyLevel.java
+END

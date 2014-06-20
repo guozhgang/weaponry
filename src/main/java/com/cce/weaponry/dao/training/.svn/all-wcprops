@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/dao/training
+END
+FileTypeInfoDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/dao/training/FileTypeInfoDao.java
+END
+TeacherDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/dao/training/TeacherDao.java
+END
+ProjectDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/dao/training/ProjectDao.java
+END
+FileInfoDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/dao/training/FileInfoDao.java
+END
+EntryDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/dao/training/EntryDao.java
+END
+PublishTypeDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/dao/training/PublishTypeDao.java
+END
+ChatMessageDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/dao/training/ChatMessageDao.java
+END

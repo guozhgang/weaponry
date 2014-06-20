@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/web/vo/trace
+END
+CompanyTypeVO.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/web/vo/trace/CompanyTypeVO.java
+END
+EntityVO.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/web/vo/trace/EntityVO.java
+END
+TransportVO.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/web/vo/trace/TransportVO.java
+END
+ButcherVO.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/web/vo/trace/ButcherVO.java
+END
+SaleVO.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/web/vo/trace/SaleVO.java
+END
+EventVO.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/web/vo/trace/EventVO.java
+END
+TraceSearchVO.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/web/vo/trace/TraceSearchVO.java
+END
+TraceStatVO.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/web/vo/trace/TraceStatVO.java
+END
+InventoryVO.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/web/vo/trace/InventoryVO.java
+END
+TraceSearchCondVO.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/web/vo/trace/TraceSearchCondVO.java
+END
+TraceInfoVO.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/web/vo/trace/TraceInfoVO.java
+END

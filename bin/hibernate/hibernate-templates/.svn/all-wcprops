@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/bin/hibernate/hibernate-templates
+END
+daoTest.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/bin/hibernate/hibernate-templates/daoTest.ftl
+END
+dao.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/bin/hibernate/hibernate-templates/dao.ftl
+END
+manager.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/bin/hibernate/hibernate-templates/manager.ftl
+END

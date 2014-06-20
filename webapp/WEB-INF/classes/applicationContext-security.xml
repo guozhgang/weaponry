@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:s="http://www.springframework.org/schema/security"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security-3.0.xsd"
+	default-autowire="byType" default-lazy-init="true">
+
+	<description>SpringSecurity安全配置</description>
+
+	<!-- http安全配置 -->
+	<s:http auto-config="true">
+		<s:form-login login-page="/login.action"
+			authentication-success-handler-ref="jsonSimpleUrlAuthenticationSuccessHandler" 
+			authentication-failure-url="/login.action?error=true"
+			authentication-failure-handler-ref="jsonSimpleUrlAuthenticationFailureHandler"
+			default-target-url="/"/>
+		<s:custom-filter before="FILTER_SECURITY_INTERCEPTOR" ref="filterSecurityInterceptor" />
+		<s:logout logout-success-url="/login.action" />
+	</s:http>
+	
+	<bean id="jsonSimpleUrlAuthenticationSuccessHandler" class="com.cce.modules.security.springsecurity.JsonSimpleUrlAuthenticationSuccessHandler">
+		<property name="defaultTargetUrl" value="/"/>
+	</bean>
+	<bean id="jsonSimpleUrlAuthenticationFailureHandler" class="com.cce.modules.security.springsecurity.JsonSimpleUrlAuthenticationFailureHandler">
+		<property name="defaultTargetUrl" value="/"/>
+	</bean>	
+
+	<!-- 重新定义的FilterSecurityInterceptor,使用databaseDefinitionSource提供的url-授权关系定义 -->
+	<bean id="filterSecurityInterceptor" class="org.springframework.security.web.access.intercept.FilterSecurityInterceptor">
+		<property name="authenticationManager" ref="authenticationManager"/>
+		<property name="accessDecisionManager" ref="accessDecisionManager" />
+		<property name="securityMetadataSource" ref="securityMetadataSource" />
+	</bean>
+	
+	<!-- 认证配置 -->
+	<s:authentication-manager alias="authenticationManager">
+		<s:authentication-provider user-service-ref="userDetailsService">
+			<!-- 可设置hash使用sha1或md5散列密码后再存入数据库 -->
+			<s:password-encoder hash="plaintext" />
+		</s:authentication-provider>
+	</s:authentication-manager>
+	
+	<!-- 项目实现的用户查询服务 -->
+	<bean id="userDetailsService" class="com.cce.weaponry.service.security.UserDetailsServiceImpl" />
+
+	<!-- 授权判断配置, 将授权名称的默认前缀由ROLE_改为A_. -->
+	<bean id="accessDecisionManager" class="org.springframework.security.access.vote.AffirmativeBased">
+		<property name="decisionVoters">
+			<list>
+				<bean class="org.springframework.security.access.vote.RoleVoter">
+					<property name="rolePrefix" value="A_" />
+				</bean>
+				<bean class="org.springframework.security.access.vote.AuthenticatedVoter" />
+			</list>
+		</property>
+	</bean>
+	
+	<!-- DefinitionSource工厂,使用resourceDetailsService提供的URL-授权关系. -->
+	<bean id="securityMetadataSource" class="com.cce.modules.security.springsecurity.DBFilterInvocationSecurityMetadataSource">
+		<property name="resourceDetailsService" ref="resourceDetailsService" />
+	</bean>
+	<!-- 项目实现的URL-授权查询服务 -->
+	<bean id="resourceDetailsService" class="com.cce.weaponry.service.security.ResourceDetailsServiceImpl" />
+	
+</beans>

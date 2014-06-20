@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/zbms/!svn/ver/19/trunk/weaponry/cce-web/src/main/resources
+END
+applicationContext-security.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/resources/applicationContext-security.xml
+END
+upload.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/resources/upload.xml
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/resources/log4j.properties
+END
+hibernate.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/resources/hibernate.cfg.xml
+END
+application.properties
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/zbms/!svn/ver/19/trunk/weaponry/cce-web/src/main/resources/application.properties
+END
+.struts.mex
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/resources/.struts.mex
+END
+applicationContext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/zbms/!svn/ver/19/trunk/weaponry/cce-web/src/main/resources/applicationContext.xml
+END
+struts.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/resources/struts.xml
+END
+propertyset.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/resources/propertyset.xml
+END

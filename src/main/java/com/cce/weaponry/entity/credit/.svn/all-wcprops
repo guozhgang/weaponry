@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/zbms/!svn/ver/19/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/credit
+END
+EvaluationMember.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/credit/EvaluationMember.java
+END
+Approval4Credit.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/zbms/!svn/ver/19/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/credit/Approval4Credit.java
+END
+ApproveCreditDetail.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/zbms/!svn/ver/19/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/credit/ApproveCreditDetail.java
+END
+EvaluationTeam.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/credit/EvaluationTeam.java
+END
+CompanyCredit.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/zbms/!svn/ver/19/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/credit/CompanyCredit.java
+END
+EvaluationExpert.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/zbms/!svn/ver/13/trunk/weaponry/cce-web/src/main/java/com/cce/weaponry/entity/credit/EvaluationExpert.java
+END

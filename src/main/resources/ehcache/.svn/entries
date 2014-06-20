@@ -1,0 +1,40 @@
+8
+
+dir
+21
+http://soft-server/svn/zbms/trunk/weaponry/cce-web/src/main/resources/ehcache
+http://soft-server/svn/zbms
+
+
+
+2014-06-11T05:37:10.828750Z
+17
+xinglifeng
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+c857d626-0701-4c40-b05f-29447147eddd
+
+ehcache-hibernate-local.xml
+file
+
+
+
+
+2014-06-12T01:26:18.986000Z
+62a26b43700eb9a8bd3a94daada54583
+2014-06-11T05:37:10.828750Z
+17
+xinglifeng
+

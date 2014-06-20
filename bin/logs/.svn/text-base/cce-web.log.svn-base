@@ -1,0 +1,12 @@
+2010-03-08 23:47:23,549 [main] WARN  [org.hibernate.cfg.reveng.JDBCReader] - The JDBC driver didn't report any primary key columns in SS_RESOURCE_AUTHORITY. Asking rev.eng. strategy
+2010-03-08 23:47:23,554 [main] WARN  [org.hibernate.cfg.reveng.JDBCReader] - Rev.eng. strategy did not report any primary key columns for SS_RESOURCE_AUTHORITY
+2010-03-08 23:47:23,578 [main] WARN  [org.hibernate.cfg.reveng.JDBCReader] - The JDBC driver didn't report any primary key columns in SS_ROLE_AUTHORITY. Asking rev.eng. strategy
+2010-03-08 23:47:23,582 [main] WARN  [org.hibernate.cfg.reveng.JDBCReader] - Rev.eng. strategy did not report any primary key columns for SS_ROLE_AUTHORITY
+2010-03-08 23:47:23,605 [main] WARN  [org.hibernate.cfg.reveng.JDBCReader] - The JDBC driver didn't report any primary key columns in SS_USER_ROLE. Asking rev.eng. strategy
+2010-03-08 23:47:23,606 [main] WARN  [org.hibernate.cfg.reveng.JDBCReader] - Rev.eng. strategy did not report any primary key columns for SS_USER_ROLE
+2010-03-08 23:51:24,941 [main] WARN  [org.hibernate.cfg.reveng.JDBCReader] - The JDBC driver didn't report any primary key columns in SS_RESOURCE_AUTHORITY. Asking rev.eng. strategy
+2010-03-08 23:51:24,943 [main] WARN  [org.hibernate.cfg.reveng.JDBCReader] - Rev.eng. strategy did not report any primary key columns for SS_RESOURCE_AUTHORITY
+2010-03-08 23:51:24,964 [main] WARN  [org.hibernate.cfg.reveng.JDBCReader] - The JDBC driver didn't report any primary key columns in SS_ROLE_AUTHORITY. Asking rev.eng. strategy
+2010-03-08 23:51:24,965 [main] WARN  [org.hibernate.cfg.reveng.JDBCReader] - Rev.eng. strategy did not report any primary key columns for SS_ROLE_AUTHORITY
+2010-03-08 23:51:24,992 [main] WARN  [org.hibernate.cfg.reveng.JDBCReader] - The JDBC driver didn't report any primary key columns in SS_USER_ROLE. Asking rev.eng. strategy
+2010-03-08 23:51:24,992 [main] WARN  [org.hibernate.cfg.reveng.JDBCReader] - Rev.eng. strategy did not report any primary key columns for SS_USER_ROLE
